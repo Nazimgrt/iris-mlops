@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/gnazi/OneDrive/Bureau/projet ML/mlruns/286993459711627562/4f3524044853438e9334c3aece1f74a3/artifacts
+end_time: 1758734672503
+entry_point_name: ''
+experiment_id: '286993459711627562'
+lifecycle_stage: active
+run_id: 4f3524044853438e9334c3aece1f74a3
+run_name: unleashed-skunk-52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758734662701
+status: 3
+tags: []
+user_id: gnazi

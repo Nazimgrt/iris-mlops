@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/gnazi/OneDrive/Bureau/projet%20ML/mlruns/861173709847418804/b90b66dd42864cadb4f12a46e511a9c4/artifacts
+end_time: 1758734688254
+entry_point_name: ''
+experiment_id: '861173709847418804'
+lifecycle_stage: active
+run_id: b90b66dd42864cadb4f12a46e511a9c4
+run_name: gifted-snake-834
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758734680282
+status: 3
+tags: []
+user_id: gnazi
