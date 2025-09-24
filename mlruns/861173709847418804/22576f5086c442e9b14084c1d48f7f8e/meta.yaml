@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/gnazi/OneDrive/Bureau/projet%20ML/mlruns/861173709847418804/22576f5086c442e9b14084c1d48f7f8e/artifacts
+end_time: 1758734397592
+entry_point_name: ''
+experiment_id: '861173709847418804'
+lifecycle_stage: active
+run_id: 22576f5086c442e9b14084c1d48f7f8e
+run_name: dashing-crane-973
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758734389132
+status: 3
+tags: []
+user_id: gnazi
