@@ -1,0 +1,29 @@
+name: Iris ML Pipeline
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  train-evaluate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v3
+
+      - name: Installer Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Installer dépendances
+        run: pip install -r requirements.txt
+
+      - name: Lancer les tests
+        run: pytest tests/
+
+      - name: Entraîner modèle et logger dans MLflow
+        run: python train.py
+
+      - name: Évaluer le modèle
+        run: python evaluate.py

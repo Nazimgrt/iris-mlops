@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/gnazi/OneDrive/Bureau/projet%20ML/mlruns/919481012000573046/f18d6428613b4dc4beaed960bbe374fd/artifacts
+end_time: 1758728976820
+entry_point_name: ''
+experiment_id: '919481012000573046'
+lifecycle_stage: active
+run_id: f18d6428613b4dc4beaed960bbe374fd
+run_name: spiffy-lamb-838
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758728965856
+status: 3
+tags: []
+user_id: gnazi

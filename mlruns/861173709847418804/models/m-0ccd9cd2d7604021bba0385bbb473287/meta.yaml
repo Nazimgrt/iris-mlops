@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/gnazi/OneDrive/Bureau/projet%20ML/mlruns/861173709847418804/models/m-0ccd9cd2d7604021bba0385bbb473287/artifacts
+creation_timestamp: 1758728154826
+experiment_id: '861173709847418804'
+last_updated_timestamp: 1758728169082
+model_id: m-0ccd9cd2d7604021bba0385bbb473287
+model_type: null
+name: iris_model
+source_run_id: 7a327c59dbc74331a0f9234cbe88dc07
+status: 2
+status_message: null
