@@ -1,43 +1,5 @@
-name: Iris ML Pipeline
-
-on:
-  push:
-    branches: [ main ]
-
-jobs:
-  train-evaluate:
-    runs-on: ubuntu-latest
-
-    steps:
-      # Étape 1 : Récupérer le code
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      # Étape 2 : Installer Python
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.10"
-
-      # Étape 3 : Installer les dépendances
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      # Étape 4 : Lancer les tests unitaires
-      - name: Run tests
-        run: pytest tests/
-
-      # Étape 5 : Entraîner le modèle et logger dans MLflow
-      - name: Train model with MLflow
-        run: python train.py
-
-      # Étape 6 : Évaluer le modèle
-      - name: Evaluate model
-        run: python evaluate.py
-
-      # Étape 7 : Sauvegarder les artefacts MLflow
-      - name: Upload MLflow artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: mlflow-runs
-          path: mlruns
+- name: Upload MLflow artifacts
+  uses: actions/upload-artifact@v4
+  with:
+    name: mlflow-runs
+    path: mlruns
